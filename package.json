@@ -1,0 +1,30 @@
+{
+  "name": "webpack-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reymons/webpack-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reymons/webpack-testing/issues"
+  },
+  "homepage": "https://github.com/reymons/webpack-testing#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "*",
+    "css-loader": "^5.2.1",
+    "html-webpack-loader": "^0.0.5",
+    "mini-css-extract-plugin": "^1.4.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^11.0.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts": {
+    "start": "webpack serve"
+  }
+}
